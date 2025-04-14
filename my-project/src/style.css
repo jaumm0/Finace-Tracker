@@ -1,0 +1,93 @@
+@import './style.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #E7E6E4;
+}
+.login-page body {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  height: 100vh;
+}
+.login-page .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #FEFBFB;
+  border-radius: 0.8rem;
+  height: 28rem;
+  width: 25rem;
+  padding: 2.5rem;
+}
+.login-page .hidden {
+  display: none;
+}
+.login-page .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+}
+.login-page input {
+  display: block;
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+}
+.login-page .login {
+  display: flex;
+  justify-content: center;
+  gap: 2.6rem;
+}
+.login-page .login .item {
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: space-between;
+  padding-bottom: 0.3rem;
+  cursor: pointer;
+}
+.login-page .login .item:hover {
+  color: #4E97FD;
+}
+.login-page .linha {
+  width: 17.5rem;
+  height: 0.3rem;
+  background-color: #EEEDED;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.login-page .form-lg, .login-page .form-rg {
+  width: 18rem;
+  height: 2.8rem;
+  padding-left: 0.6rem;
+  border: 2px solid #EEEDED;
+  border-radius: 0.6rem;
+}
+.login-page #btn-login, .login-page #btn-registro {
+  width: 100%;
+  background-color: #4BAE4F;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+.login-page #btn-login:hover, .login-page #btn-registro:hover {
+  background-color: #4fcc53;
+  transition: 0, 4s;
+}/*# sourceMappingURL=style.css.map */

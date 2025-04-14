@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+.login-page{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-pg-lg;
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    height: 100vh;
+}
+
+.container{  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: $bg-lg;
+        border-radius: 0.8rem;
+        height: 28rem;
+        width: 25rem;
+        padding: 2.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.7rem;
+    font-weight:$font-w;
+    font-size: $font-s;
+    padding-bottom: 0.3rem;
+}
+
+input{
+    display: block;
+    width: 100%;
+    margin: 0.8rem 0;
+    padding: 0.8rem;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    gap: 2.6rem;
+    .item{
+        font-size: $font-s-12;
+        font-weight: $font-w;
+        justify-content: space-between;
+        padding-bottom: 0.3rem;
+        cursor: pointer;    
+    &:hover{
+       color: $line-c;
+    }
+    }
+
+} 
+.linha{
+    width: 17.5rem;
+    height: 0.3rem;
+    background-color: $line-c-s;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    // &:hover{
+    //     justify-content: start;
+    //     background: $line-c;
+    //     margin-right: 10;
+    //     width: -10rem;
+    // }
+}
+// .line-span{
+//     display: flex;
+//     justify-content: center;
+// }
+.form-lg, .form-rg{
+    width: 18rem;
+    height: 2.8rem;
+    padding-left: 0.6rem;
+    border: 2px solid $line-c-s;
+    border-radius: 0.6rem;
+}
+
+#btn-login, #btn-registro{
+    width: 100%;
+    background-color: $btn-c;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight:$weight;
+    font-size: $size;
+    margin-bottom: 1.5rem;
+    font-size: $font-s;
+    &:hover{
+        background-color: $btn-s;
+        transition: 0,4s;
+    }
+}
+}

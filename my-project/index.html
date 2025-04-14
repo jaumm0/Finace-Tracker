@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="login-page">
+  
+    <main class="container login-page" >
+      <header class="title">
+        <img src="src/imgs/dolar.png" alt="">
+        <h1>Finance Tracker</h1>
+      </header>
+        <!-- <section class="login">
+            <span id="login" class="item">Login</span>
+            <span id="sign-up" class="item">Sing Up</span>
+        </section> -->
+        <!-- <div id="line" class="line-span">
+            <span id="" class="linha"></span>
+        </div> -->
+        <section class="container-form">
+          <h2 id="nomeLogin">Login</h2>
+          <div id="loginForm" class="form-box">
+            <input type="email" name="email" id="emailLogin" class="form-lg" placeholder="Email">
+            <input type="password" name="password" id="passwordLogin" class="form-lg" placeholder='Password'>
+            <button id="btn-login" class="form-lg">Login</button>
+            <p>Não tem uma conta? <a href="#" id="linkRegistro">Registrar</a></p>
+          </div>
+        
+
+          <div id="registroForm" class="form-box hidden">
+            <h2 id="nomeRegistrar">Registrar</h2>
+            <input type="text" name="Usuario" id="userRegistro" class="form-rg" placeholder="Usuario">
+            <input type="email" name="email" id="emailRegistro" class="form-rg" placeholder="Email">
+            <input type="password" name="password" id="passwordRegistro" class="form-rg" placeholder='Password'>
+            <button id="btn-registro" class="form-lg">Login</button>
+            <p>Já tem uma conta? <a href="#" id="linkLogin">Fazer login</a></p>
+
+          </div>
+        </section>
+    </main>    
+    <script type="module" src="./src/login.js"></script>
+  </body>
+</html>
